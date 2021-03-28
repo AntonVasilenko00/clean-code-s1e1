@@ -136,32 +136,32 @@ button {
   vertical-align: middle;
 }
 
-.main__item > .main__checkbox {
+.main__checkbox {
   margin: 0 10px;
 }
 
-.main__item > .main__task-label {
+.main__task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.main__item > .main__task-input {
+.main__task-input {
   width: 226px;
 }
 
-.main__item > .main__btn--delete:hover {
+.main__btn--delete:hover {
   color: #cf2323;
 }
 
-.main__btn--delete .main__remove-icon {
+.main__remove-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.main__btn--delete .main__remove-icon:hover {
+.main__remove-icon:hover {
   transform: rotateZ(0);
 }
 
